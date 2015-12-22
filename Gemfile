@@ -1,5 +1,5 @@
-source 'https://rubygems.orgs'
-ruby "2.2.2"
+source 'https://rubygems.org'
+ruby "2.3.0"
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -42,6 +42,7 @@ end
 
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
